@@ -49,3 +49,9 @@ float logarithm(float a)
     {
         return log10(a);
     }
+float square(float a)
+{
+    return a*a;
+}
+
+    
