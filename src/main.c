@@ -1,4 +1,7 @@
-int choice;
+int main()
+{
+
+    int choice;
     float input1,input2,result;
 
     printf("Enter the choice\n :");
@@ -10,6 +13,7 @@ int choice;
     printf("Enter 9 for inverse\n");
     printf("Enter 10 for power\n");
     printf("Enter 11 for logarithm\n");
+    printf("Enter 12 for square\n");
 
     scanf("%d",&choice);
     if(choice == 0)
@@ -111,6 +115,12 @@ int choice;
     printf("Enter  number");
     scanf("%f",&input1);
     result=logarithm(input1);
+    printf("%0.4f",result);
+    break;
+    case 12:
+    printf("Enter  number");
+    scanf("%f",&input1);
+    result=square(input1);
     printf("%0.4f",result);
     break;
 
