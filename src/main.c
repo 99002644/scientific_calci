@@ -16,9 +16,11 @@ int main()
     printf("Enter 12 for square\n");
 
     scanf("%d",&choice);
+    
     if(choice == 0)
     {exit(0);
     }
+    #selection of the various operations
     switch(choice) {
     case 1:
     printf("Enter first number");
