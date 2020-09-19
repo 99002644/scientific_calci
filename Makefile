@@ -6,7 +6,7 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/calculator_operations.c\
+src/calculator.c\
 
 # All test source files
 TEST_SRC = src/calculator_operations.c\
